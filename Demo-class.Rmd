@@ -115,12 +115,12 @@ by the end of the SLR Model Assumptions & Diagnostics, students should be able t
 
 - List 4 things that can go wrong with the linear regression model.
 
-
+::: nonincremental
 Using visual analysis of the residuals vs fit plot:
 
 - Summarize how to detect various problems with the model using a residuals vs. fits plot.
 
-
+:::
 
 ## Recall from a previous lecture
 

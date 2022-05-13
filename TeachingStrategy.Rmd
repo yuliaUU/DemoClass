@@ -65,7 +65,7 @@ Two fitted regression lines (A & B) on randomly generated data are shown in the 
 - Good for in-depth analysis
 - Can include reflection / synthesis questions
 - Important to have access to frequent office hours 
-- Reflection question
+- Model a real-life scenarios
 
 --------------------------------------------------------------------
 
@@ -94,8 +94,8 @@ Two fitted regression lines (A & B) on randomly generated data are shown in the 
 
 # Difficulties students might have learning the topic
 
-- Terminology & definitions
 - Seeing big picture
+- Terminology & definitions
 - Depth of knowledge & Math skills
 
 ![](images/see-big.jpg){width=40%}

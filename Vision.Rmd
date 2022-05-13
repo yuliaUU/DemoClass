@@ -43,7 +43,7 @@ No uniform approach to teach DS.
 
 ::: 
 
-![](images/ima_data_scientist.png){width=60%}
+![](images/ima_data_scientist.png){width=80%}
 
 
 ------------------------------------
@@ -114,9 +114,14 @@ Furthermore, education does not just happen in school and is not necessary for u
 
 ----------------------------------
 
+Links with grad students from otehr Departments 
+
+::: nonincremental
 - Bridging courses between different UBC departments.
 - Many grad students working on their theses do not have enough statistical training and are not familiar with proper data analysis workflow. 
 - Data literacy should be one of the central themes of data science education. 
+:::
+
 
 ----------------------------------------
 
