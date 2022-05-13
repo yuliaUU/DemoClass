@@ -1,0 +1,29 @@
+
+.reveal section p ul ol{
+    font-size: 0.8em ;
+}
+
+
+.reveal section  li {
+    font-size: 0.8em ;
+}
+
+.reveal section img {
+  background:none; 
+  border:none; 
+  box-shadow:none;
+  }
+  
+.left {
+    text-align: left;
+  }
+  
+
+    
+.reveal h1 {
+    font-size: 1.0 em ;
+}
+
+.reveal .slides section .fragment.visible {
+    text-align: left;;
+}
