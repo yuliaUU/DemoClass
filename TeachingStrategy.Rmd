@@ -38,8 +38,8 @@ How would I assist them in attaining your learning outcomes?
 **Quiz:**
 
 <font size="5">
-If you Google "Q-Q plots" and look at the available images, you will see the 3 types of Q-Q plots. an example of each type is shown below.
-All three plots show Theoretical Quantiles on x-axes, but can have different y-axis: A) Residuals; B) Standardized residuals, and C) Sample Quantiles. Which of the following option would you use to assess the normality assumption? Explain your choice.
+If you Google "Q-Q plots" and look at the available images, you will see the 3 types of Q-Q plots. An example of each type is shown below.
+All three plots show Theoretical Quantiles on x-axis, but have different y-axis: A) Residuals; B) Standardized residuals, and C) y- variable. Which of the following option would you use to assess the normality assumption? Explain your choice.
 </font>
 
 ![](images/qq-choice.png){width=80%}
@@ -51,10 +51,12 @@ Two fitted regression lines (A & B) on randomly generated data are shown in the 
 
 ![](images/quizq.jpg)
 
+::: nonincremental
 1. A has higher sum of residuals than B
 2. A has lower sum of residual than B
 3. Both have same sum of residuals
 4. None of these
+:::
 
 ----------------------------------------------
 

@@ -1,5 +1,5 @@
 ---
-title: Example of the Lab Assignment
+title: Example of the Lab Assignment (Student Version)
 subtitle: Assumptions and Diagnostics in Linear Regression
 author: Yulia E
 output:
@@ -39,11 +39,6 @@ Residuals are . . .
 
 ```{r}
 answer1_1 <- NULL
-
-# BEGIN SOLUTION
-answer1_1 <- 3
-answer1_1
-# END SOLUTION
 ```
 
 ## Ex 1.2
@@ -52,16 +47,11 @@ Which of the following is true about Residuals ?
 
 1. Lower is better
 2. Higher is better
-3. A or B - depends on the situation
+3. A or B depend on the situation
 4. None of these
 
 ```{r}
 answer1_2 <- NULL
-
-# BEGIN SOLUTION
-answer1_2 <- 1
-answer1_2
-# END SOLUTION
 ```
 
 ## Ex 1.3
@@ -76,11 +66,6 @@ A scientist is graphing data points from an experiment and concludes that the da
 
 ```{r}
 answer1_1 <- NULL
-
-# BEGIN SOLUTION
-answer1_1 <- 1
-answer1_1
-# END SOLUTION
 ```
 
 ## Ex 1.4
@@ -88,11 +73,6 @@ answer1_1
 True or false? before checking assessing a numeric measures of goodness of fit (like $R^2$), you should evaluate the residuals plot.
 ```{r}
 answer1_4 <- NULL
-
-# BEGIN SOLUTION
-answer1_4 <- "true"
-answer1_4
-# END SOLUTION
 ```
 
 
@@ -100,17 +80,12 @@ answer1_4
 
 Suppose you plotted a scatter plot between the residuals and predicted values in linear regression and you found that there is a relationship between them. Which of the following conclusion do you make about this situation?
 
-1. Since the there is a relationship, it means our model is good
+1. Since the there is a relationship means our model is good
 2. Can’t really say
-3. Since the there is a relationship, it means our model is not good
+3. Since the there is a relationship means our model is not good
 
 ```{r}
 answer1_5 <- NULL
-
-# BEGIN SOLUTION
-answer1_5 <- 3
-answer1_5
-# END SOLUTION
 ```
 
 
@@ -129,11 +104,6 @@ variable x has a pattern that
 
 ```{r}
 answer1_6 <- NULL
-
-# BEGIN SOLUTION
-answer1_6 <- 4
-answer1_6
-# END SOLUTION
 ```
 
 
@@ -168,19 +138,14 @@ rubric={reasoning:2,viz:3}
 Abalone researcher desires to devise a method that will help them to determine the age of the organism, without killing it. Thus, they propose to use the length of the shell as a proxy of the abalone's age. They ask you to produce a scatterplot `ring_len.plt` showing the relationship between two variables.
 
 ```{r}
-# BEGIN SOLUTION
-ring_len.plt <- ggplot(abalone, aes(y=Rings, x=Length))+geom_point()+
-  theme_classic()+
-  labs(x="Shell Length", y="Number of Rings")
-ring_len.plt
-# END SOLUTION
+ring_len.plt <- NULL
 ```
 
 In one or two sentences, explain Which variable would go on the y-axis? Why?)
 
-<!-- BEGIN SOLUTION -->
-Shell length is a independent variable while number of rings is the dependent variables. Traditionally, we would plot the dependent variable (`Rings`) on y-axis and the `Length` on the axis.
-<!-- END SOLUTION -->
+```
+ **INSERT YOUR ANSWER HERE**
+```
 
 
 ## Ex 2.2
@@ -189,56 +154,42 @@ rubric={reasoning:2,accuracy=2,viz:2}
 
 Create a simple linear regression model called `model` to help determine the associations the response `Rings` and `Height` as the predictor $x$. 
 ```{r}
-# BEGIN SOLUTION
-model <- lm(Rings~ Length, data=abalone)
-# END SOLUTION
+model <- NULL
 ```
 
 Add a regression line to the scatterplot `ring_len.plt`
 
 ```{r}
 # BEGIN SOLUTION
-ring_len.plt + 
-  geom_smooth(method = lm, se = FALSE, color="steelblue")+
-  labs(title="Regression Plot")+
-  theme_cowplot()
-# END SOLUTION
 ```
 
 In 1-2 sentences, describe  whether there appear to be a linear relationship between the variables?
 
-<!-- BEGIN SOLUTION -->
-Originally, the plot looked quite linear. However after adding a regression line, we can observe that the number of rings increase more sharper with the shell length as the linear model propose. In addition, we can see that the older shells ( shels with larger number of rings) have more variable shell length compare to the younger shells.
-<!-- END SOLUTION -->
-
+```
+ **INSERT YOUR ANSWER HERE**
+```
 
 ## Ex 2.3
 
-rubric={reasoning:3,accuracy=2,viz:2}
+rubric={reasoning:5,accuracy=2,viz:2}
 
 Built a residuals vs. fit plot. 
 
 ```{r}
 # BEGIN SOLUTION
-ggplot(model , aes(.fitted, .resid))+geom_point()+
-  geom_hline(yintercept=0, col="steelblue", linetype="dashed", lwd=1)+
-  xlab("Fitted values")+ylab("Residuals")+
-  ggtitle("Residual vs Fits Plot")+theme_cowplot()
-# END SOLUTION
 ```
 
 In 3-5 sentences, interpret the output of the residual plot, state whether assumptions were violated or not?
 
-<!-- BEGIN SOLUTION -->
-we can observe a "fanning" effect of the residuals where residuals are more spread when fitted values are larger than when the fitted values are small.residuals "fan out" from left to right rather than exhibiting a consistent spread around the residual = 0 line. The residual vs. fits plot suggests that the error variances are not equal.
-<!-- END SOLUTION -->
-
-
+```
+ **INSERT YOUR ANSWER HERE**
+```
 Thinking back to what type of data can be modelled with simple linear regression, do you think it is reasonable to use this model to answer this research question?
 
-<!-- BEGIN SOLUTION -->
-SLR is used to model continuous dependent variable, while in this case we have we are modelling count data, so other regression models will be more appropriate (eg Poisson Regression)
-<!-- END SOLUTION -->
+```
+ **INSERT YOUR ANSWER HERE**
+```
+
 
 
 # Writing
@@ -253,7 +204,7 @@ To get the marks for this writing component, you should:
 
 # Submission
 
-rubric={mechanics:5}
+rubric={mechanics:3}
 
 
 Congratulations! You are done the lab! Run the following command to receive a small praise from R:)
@@ -274,3 +225,16 @@ URL to your GitHub repo: **INSERT YOUR GITHUB REPO URL HERE**
 - Upload the `.Rmd` AND the `.pdf` files to Gradescope.
 
 
+# Rubric
+
+Ex 1: autograded question 1 pt for answering correctly
+
+Ex 2.1: reasoning:2 viz:3
+
+Ex 2.2: reasoning:2,accuracy=2, viz:2
+
+Ex 2.3: reasoning:5,accuracy=2, viz:2
+
+Writing: writing:2
+
+Submission: mechanics:3
