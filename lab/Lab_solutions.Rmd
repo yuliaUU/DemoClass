@@ -52,7 +52,7 @@ Which of the following is true about Residuals ?
 
 1. Lower is better
 2. Higher is better
-3. A or B - depends on the situation
+3. 1 or 2 - depends on the situation
 4. None of these
 
 ```{r}

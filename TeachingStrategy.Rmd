@@ -45,18 +45,8 @@ All three plots show Theoretical Quantiles on x-axis, but have different y-axis:
 ![](images/qq-choice.png){width=80%}
 
 
-----------------
 
-Two fitted regression lines (A & B) on randomly generated data are shown in the figure below (x- axis shows the independent variable and y-axis shows dependent variable). Which ONE of the following statement is true about sum of residuals of A and B? Assume the scale is the same between the graphs.
 
-![](images/quizq.jpg)
-
-::: nonincremental
-1. A has higher sum of residuals than B
-2. A has lower sum of residual than B
-3. Both have same sum of residuals
-4. None of these
-:::
 
 ----------------------------------------------
 

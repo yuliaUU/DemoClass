@@ -281,8 +281,7 @@ treadwear.res.plt
 </div>
 
 ::: fragment
-**Answer:**  The residuals depart from 0 in some systematic manner
-Any systematic (non-random) patternis sufficient to suggest that the regression function is not linear.
+**Answer:**  The residuals depart from 0 in some systematic manner (non-random). Such pattern is sufficient to suggest that the regression function is not linear.
 :::
 
 ----------------------------------------------------------
