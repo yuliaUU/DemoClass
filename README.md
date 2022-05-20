@@ -23,3 +23,17 @@ You will describe to us how you would holistically teach the chosen topic (with 
 ## VISION [about 15 minutes]
 
 What is your vision for Data Science education in regards to degree programs (professional masters, minor and/or major)? What should be taught? And how should it be taught?
+
+
+### Links used toprepare the presentation:
+- http://www.sthda.com/english/articles/39-regression-model-diagnostics/161-linear-regression-assumptions-and-diagnostics-in-r-essentials/
+- https://online.stat.psu.edu/stat501/lesson/4
+- https://www.rpubs.com/stevenlsenior/normal_residuals_with_code
+- http://www.pmean.com/09/NormalPlot.html
+- https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fqualityandinnovation.files.wordpress.com%2F2012%2F09%2Fqq-plot-75-925.doc&wdOrigin=BROWSELINK
+- https://cran.r-project.org/web/packages/GlmSimulatoR/vignettes/dealing_with_right_skewed_data.html
+- https://www.ucd.ie/ecomodel/Resources/QQplots_WebVersion.html
+- https://whitlockschluter3e.zoology.ubc.ca/Tutorials%20using%20R/R_tutorial_Normal_and_sample_means.html#activity_1_give_the_ta_the_finger(s)
+- https://clas.ucdenver.edu/marcelo-perraillon/sites/default/files/attached-files/week_7_diagnostics_0.pdf
+- https://online.stat.psu.edu/stat500/lesson/9/9.2/9.2.3
+- https://rstudio-pubs-static.s3.amazonaws.com/525414_3c5d6bb14df24e81af20c2dc98085f73.html
